@@ -55,7 +55,7 @@ namespace MariamPortfolio.Services
 
 
 
-        // haal één project op via id
+        // haal een project op via id
         public async Task<ProjectDto?> GetByIdAsync(int id)
         {
             // zoek in Projects naar het project met hetzelfde id
